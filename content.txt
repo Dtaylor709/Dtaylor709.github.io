@@ -1,0 +1,81 @@
+page 1
+Hello...
+I'm Djuarli Taylor
+A professional
+Web developer
+Web designer
+Business Analyst
+Freelancer
+
+Side navagation bar
+Proile/about me
+Resume
+Portfolio
+Contact
+
+page 2
+About Djuarli (say jew-are-lee)
+My Passions and Personality
+
+I'm a creative web developer frm South Hedland, Australia.
+
+100 word description of self...
+
+Include icons
+
+Page 3 Resume
+
+My experiences & Abilities
+
+Download resume button
+
+Education
+
+SheCodes Plus - link to website
+May - November 2021
+
+Course - description
+
+
+SheCodes Flash - link to website
+November 2020
+
+Course -description
+
+
+Career
+Department AWE
+2020-2021
+
+Project manager
+description
+link to microsoft article
+
+Page 4 -Portfolio
+
+Projects
+
+Include images of Projects
+
+Page 5 - Contact
+
+Connect with me today
+
+icons at top of page
+image phone
+Give us a call
+04## ### ###
+
+@ icon
+Send us a message
+#####@gmail.com
+
+Linked in icon
+Lets connect on linked In - include our hyperlink
+
+
+
+Have standard message box
+
+
+Include map at bottom
