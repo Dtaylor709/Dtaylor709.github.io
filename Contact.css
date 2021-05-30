@@ -77,10 +77,9 @@ a {
 }
 
 .icon-center {
-    margin-left: 30%;
+    margin-left: 35%;
 }
 
-/* Resize images */
 .container img {
     width: 25%;
     height: auto;

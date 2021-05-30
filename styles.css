@@ -1,5 +1,6 @@
 html {
     font-family:  'Playfair Display', serif;
+    font-size:100%; 
 }
 
 html, body {
@@ -196,3 +197,15 @@ img {
     background-color: black;
   }
 
+img { max-width: 100%; height: auto; }
+
+@media (max-width: 1007x) 
+{body {font-size:1rem;} 
+#header-image {width:70% }
+  
+}
+
+@media (max-width:640px) { 
+  body {font-size:1.2rem;} 
+  #header-image {width:50% }
+} 
