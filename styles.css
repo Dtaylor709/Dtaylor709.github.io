@@ -1,0 +1,213 @@
+html {
+    font-family:  'Playfair Display', serif;
+    font-size:100%; 
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+ 
+}
+
+
+header {
+    height: 70px;
+    background-color:#84597E;
+    
+}
+header a {
+    display: inline;
+    color: #000; 
+    margin-top: 10%;
+}
+
+nav {
+    float: right;
+    font-size: 1.5rem;
+    margin-top: 20px; 
+
+}
+nav a {
+    margin: 20px 20px;
+}
+
+a {
+    text-decoration: none;
+ }
+
+.logo {
+    display: inline;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    margin: 20px;
+ }
+
+.logocolor {
+     color: #ffc996;
+ }
+
+
+.header-text {
+    width: 100%;
+    height: 50vh;
+    padding: 100px;
+    display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+  
+}
+
+#intro {
+ 
+     color:black;
+     font-size: 50px;
+     line-height: 70px;
+}
+
+#header-image {
+    margin-left: 200px;
+    border-radius: 30px;
+ 
+}
+
+.highlighted {
+    color:#84597E;
+}
+
+img {
+    display: inline-flex;
+}
+
+.selected {
+    font-weight: bold;
+    color: white;
+    }
+
+    .navcolor {
+        color: white;
+    }
+    
+    .navcolor:hover {
+        color:#ffc996;
+    }
+
+
+#home {
+    background-color: #ffc996;
+}
+
+#resume {
+    background-color: #ffc996;
+}
+
+#aboutimage {
+    object-fit: fill;
+ width: 100%;
+ height: auto;
+}
+
+
+.container1 {
+    position: relative;
+  }
+  
+  
+  .text-block {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #italics {
+      font-style: italic;
+  }
+
+  .about-heading {
+    font-family: 'Roboto', sans-serif;  
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
+    color:#583d72;
+  }
+
+  .heading-block {
+    font-family: 'Roboto', sans-serif;  
+    font-weight: bold;
+  }
+
+  .blurb {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+  }
+
+
+  .skills-heading {
+    font-family: 'Roboto', sans-serif;  
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    color:#583d72;
+    border-bottom:  2px solid #ffc996;
+  }
+
+.columns {
+    margin-left: 0%;
+    display: flex;
+    padding: 5rem;
+  }
+.container2 {
+    position: relative;
+    width: 50%;
+    flex: 50%;
+  }
+
+  .container2 img {
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+  }
+
+
+  
+  .container2 .btn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 1rem;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+
+img { max-width: 100%; height: auto; }
+
+@media (max-width: 1007x) 
+{body {font-size:1rem;} 
+#header-image {width:70% }
+  
+}
+
+@media (max-width:640px) { 
+  body {font-size:1.2rem;} 
+  #header-image {width:50% }
+} 
+
+/*Tried responsive web design - couldn't work out how to fix resizing issues*/

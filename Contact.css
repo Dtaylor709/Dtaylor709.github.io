@@ -1,0 +1,148 @@
+html {
+    font-family: 'Playfair Display', serif;
+    background-color: #ffc996;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 70px;
+    background-color:#84597E;
+}
+header a {
+    display: inline-block;
+    color: #000; 
+}
+
+nav {
+    float: right;
+    font-size: 1.5rem; 
+
+}
+nav a {
+    margin: 20px 20px;
+}
+
+a {
+    text-decoration: none;
+ }
+
+ .selected {
+    font-weight: bold;
+    color: white;
+    }
+
+    .navcolor {
+        color: white;
+    }
+    
+    .navcolor:hover {
+        color:#ffc996;
+    }
+
+    .logo {
+        display: inline;
+        text-align: left;
+        font-weight: bold;
+        color: white;
+        margin: 20px;
+     }
+    
+    .logocolor {
+         color: #ffc996;
+     }
+
+    #title {
+        text-align: center;
+        padding: 25px;
+        font-family: 'Roboto', sans-serif; 
+        font-size: 25px;
+    }
+
+    .highlighted {
+        color:#583d72;
+    }
+
+.container {
+    width: 200px;
+    height: 120px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 17px; 
+}
+
+.icon-center {
+    margin-left: 35%;
+}
+
+.container img {
+    width: 25%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.phone img {
+    height: 10px;
+}
+
+form {
+    margin: 50px auto;
+    width: 90%;
+    
+}
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    
+}
+.form-item label {
+    flex-basis: 150px;
+    font-size: 22px;
+}
+.form-item input,
+.form-item textarea {
+    flex-basis: 50%;
+    border: 2px solid lightgray;
+    
+}
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 2px solid #9f5f80;
+}
+.form-item input,
+.form-item textarea {
+    border: 2px solid lightgray;
+    background-color: #FFF;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.form-item button {
+    background-color: #9f5f80;
+    color: white;
+    padding: 5px;
+    font-size: 20px; }
+
+.form-item button:hover {
+    border: 2px solid #9f5f80;
+    background-color: #9f5f80;
+    color: #FFF;
+}
+.form-item button {
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+/*Tried responsive web design - couldn't work out how to fix resizing issues*/
+
+
